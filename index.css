@@ -61,6 +61,36 @@ header aside {
 
 main section {
     height: 80vh;
+    color: rgb(49, 65, 54);
+    padding: 40px 150px;
+}
+
+main h3 {
+    text-transform: uppercase;
+}
+
+main p {
+    font-size: 28pt;
+    line-height: 1.5;
+}
+
+main h4 {
+    text-transform: uppercase;
+    border: 1px solid rgb(143, 168, 149);
+    width: fit-content;
+    height: fit-content;
+    margin: 10px auto;
+    padding: 20px;
+}
+
+main h4:hover {
+    cursor: pointer;
+    color: rgb(143, 168, 149);
+}
+
+main span {
+    font-size: 40px;
+    color: rgb(143, 168, 149);
 }
 
 main iframe {
@@ -70,10 +100,15 @@ main iframe {
 }
 
 footer img {
-    width: 25px;
+    width: 20px;
     margin: 5px;
+}
+
+footer small {
+    font-size: 15px;
 }
 
 footer address {
     color: rgb(255, 252, 247);
+    font-size: 13px;
 }
