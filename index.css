@@ -1,0 +1,79 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 252, 247);
+    background-color: rgb(87, 125, 96);
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 3px;
+}
+
+header {
+    height: 12vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+main {
+    height: 80vh;
+    background-color: rgb(255, 252, 247);
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+footer {
+    height: 8vh;
+    background-color: rgb(143, 168, 149);
+    color: rgb(49, 65, 54);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header menu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+header menu li {
+    margin: 10px;
+}
+
+header menu li:hover {
+    cursor: pointer;
+    text-decoration-line: underline;
+}
+
+header aside {
+    background-color: rgba(255, 252, 247, 30%);
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+}
+
+main section {
+    height: 80vh;
+}
+
+main iframe {
+    width: 100%;
+    height: 80vh;
+    border: 0;
+}
+
+footer img {
+    width: 25px;
+    margin: 5px;
+}
+
+footer address {
+    color: rgb(255, 252, 247);
+}
