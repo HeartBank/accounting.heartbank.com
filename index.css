@@ -112,3 +112,8 @@ footer address {
     color: rgb(255, 252, 247);
     font-size: 13px;
 }
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
